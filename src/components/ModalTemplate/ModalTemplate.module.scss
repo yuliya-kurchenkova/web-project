@@ -1,0 +1,41 @@
+@import "../../assets/scss/variables";
+
+.modalTemplate {
+  position: fixed;
+  bottom: 44px;
+  top: 74px;
+  width: 100%;
+  padding: 20px 0 225px;
+  background-color: rgba(0, 0, 0, .2);
+  backdrop-filter: blur(10px);
+
+  &__title {
+    padding-bottom: 50px;
+  }
+
+  &__form {
+    position: absolute;
+    top: calc(50% - 250px) ;  
+    left: calc(50% - 150px) ;
+    text-align: start;
+    margin: 0 auto;
+    width: 300px;
+    background: rgb(236, 226, 226);
+    box-shadow: 6px 5px 8px 8px;
+  }
+
+  &__box {
+    background: $color-header;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    color: $color-white;
+    padding: 5px 0 10px 10px;
+    font-size: $font-size-subtitle;
+  }
+
+  &__container {
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,120 @@
+@import "../../assets/scss/variables";
+
+.userPage {
+  padding: 20px 0 225px;
+  width: 100%;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  &__form {
+    width: 60%;
+    height: 265px;
+    margin: 0px 100px 0 200px;
+    text-align: start;
+    background: rgb(236, 226, 226);
+    box-shadow: 6px 5px 8px 8px;
+    overflow: auto; 
+  }
+  
+  &__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $color-header;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+  }
+
+  &__subtitle {
+    color: $color-white;
+    padding: 5px 0 10px 10px;
+    font-size: $font-size-subtitle;
+  }
+
+  &__container {
+    padding-left: 10px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid rgb(187, 180, 180);
+    margin-bottom: 17px;
+  }
+
+  &__item :last-child {
+    margin-bottom: 0;
+  }
+
+  &__user {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  &__holder {
+   width: 80%;
+  }
+
+  &__text {
+    color: $color-text;
+    font-size: $font-size-base;
+    font-weight: 700;
+   }
+
+  &__inner {
+    display: flex;
+    width: 37%;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  &__settings {
+    width: 40%;
+    margin: 0px 200px 0 0px;
+    text-align: start;
+    background: rgb(236, 226, 226);
+    box-shadow: 6px 5px 8px 8px;;
+  }
+
+  &__sort {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+  }
+
+  &__sortA {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: 4px;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+    cursor: pointer;
+  }
+
+  &__sortB {
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: white;
+    cursor: pointer;
+  }
+
+}

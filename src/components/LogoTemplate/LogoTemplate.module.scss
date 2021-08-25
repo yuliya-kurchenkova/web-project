@@ -1,0 +1,10 @@
+@import "../../assets/scss/variables";
+
+.logoTemplate {
+  background: $color-white;
+
+  &__img {
+    width: 70px;
+    height: 70px;
+  }
+}
